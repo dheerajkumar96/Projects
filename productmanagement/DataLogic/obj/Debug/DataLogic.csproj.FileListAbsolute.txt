@@ -1,0 +1,9 @@
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\bin\Debug\DataLogic.dll
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\bin\Debug\DataLogic.pdb
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\bin\Debug\ClassObjects.dll
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\bin\Debug\ClassObjects.pdb
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\obj\Debug\DataLogic.csprojAssemblyReference.cache
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\obj\Debug\DataLogic.csproj.CoreCompileInputs.cache
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\obj\Debug\DataLogic.csproj.CopyComplete
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\obj\Debug\DataLogic.dll
+C:\Users\dheerajkumar\source\repos\productmanagement\DataLogic\obj\Debug\DataLogic.pdb
