@@ -1,0 +1,28 @@
+<div class="jumbotron">
+  <table class="table-light">
+    <thead class="text-center">
+      <tr>
+        <th>Vegetable Name</th>
+        <th>Price Per Kg</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+        <th>Click to buy</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let Vegetable of vegetables; let i=index" class="text-center">
+      <tr>
+        <td>{{Vegetable.vegetablename}}</td>
+        <td>{{Vegetable.priceperkg}}</td>
+        <td><div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button" (click)="increase(); totalprice(i)">+</button>
+          <input type="text" id="quant" class="form-control" [(ngModel)]="final"  value="{{final}}" placeholder="" aria-label="" aria-describedby="basic-addon1" readonly>
+          <button class="btn btn-outline-secondary" type="button" (click)="decrease(); totalprice(i)">-</button>
+        </div></td>
+        <td><input type="text" class="text-center" [(ngModel)]="totalp" value={{totalp}} readonly></td>
+        <td><button class="btn btn-primary  btn-sm"
+          id="center" (click)="addtocart(Vegetable)">Add to cart</button></td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>

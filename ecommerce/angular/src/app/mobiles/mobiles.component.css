@@ -1,0 +1,12 @@
+.jumbotron{
+  background-color: white;
+}
+.table-light {
+  margin: auto;
+  width: 50% !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+.tbody{
+  font-size: large
+}

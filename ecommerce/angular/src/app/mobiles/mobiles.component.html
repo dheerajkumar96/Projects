@@ -1,0 +1,19 @@
+<div class="jumbotron">
+  <table class="table-light">
+    <thead class="text-center">
+      <tr>
+        <th>Mobile Name</th>
+        <th>Price</th>
+        <th>Click to buy</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let Mobile of mobiles" class="text-center">
+      <tr>
+        <td>{{Mobile.mobilename}}</td>
+        <td>{{Mobile.price}}</td>
+        <td><button class="btn btn-primary  btn-sm"
+          id="center" >Buy</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
