@@ -1,0 +1,22 @@
+.hidden-file {
+    visibility: hidden; 
+    position: absolute;
+    overflow: hidden; 
+    width: 0px; 
+    height:0px;
+    border:none;
+    margin:0; 
+    padding:0
+}
+
+.col-md-12{
+margin-top: 100px;
+margin-bottom: -20px;
+}
+
+.col-md-9{
+    margin-left:150px;
+}
+.btn-primary{
+    margin-left:180px;
+}

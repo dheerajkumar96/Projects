@@ -1,0 +1,33 @@
+<div class="card text-center">
+    <div class="card-header" style="background-color: darkmagenta; color: lightgoldenrodyellow;">
+      <h3>Ask me anything!!!</h3>
+    </div>
+        
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title"></h5>
+      <p class="card-text"></p>
+<ng-container *ngFor="let message of messages | async">
+
+  <div class="message" [ngClass]="{ 'from': message.sentBy === 'bot',
+                                    'to':   message.sentBy === 'user' }">
+    {{ message.content }}
+  </div>
+
+</ng-container>
+
+<div style="text-align: center;">
+<label class="labelf" for="nameField">Your Message</label><br>
+
+
+<input class="mce-textbox" [(ngModel)]="formValue" (keyup.enter)="sendmessage()" type="text" size="30">
+<br>
+
+<button class="btn btn-primary" (click)="sendmessage()">Send</button>
+</div>
+
+<button class="btn-light" (click)="navigate()">Click To Upload Files</button>
+
+</div>
+
+</div>
+

@@ -1,0 +1,52 @@
+.message{
+    border-radius: 50px;
+    margin: 0 15px 10px;
+    padding: 15px 20px;
+    position: relative;
+    font-weight: bold;
+    background-color: teal;
+    color: whitesmoke;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+
+.btn.btn-primary{
+    margin-right: 210px;
+    height: 35px;
+    width: 70px;
+    margin-top: 4px;
+    
+    
+}
+
+.mce-textbox{
+    height: 40px;
+    font-size: large;
+
+}
+
+.labelf{
+    margin-right: 159px;
+    font-size: large;
+    font-family: cursive;
+    margin-bottom: 3px;
+}
+
+.btn-light{
+    margin-right: 130px;
+    margin-top: 4px;
+}
+
+/* .message.to{
+    background-color: #2095FE;
+    color: #fff;
+    margin-left: 100px;
+    text-align: right;
+}
+
+.message.from{
+    background-color: #E5E4E9;
+    color: #363636;
+    margin-right: 100px;
+} */
