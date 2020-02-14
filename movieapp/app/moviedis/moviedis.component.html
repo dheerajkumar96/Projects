@@ -1,0 +1,47 @@
+<div class="page">
+<h1 style="text-align: center; background-color: whitesmoke; ">Welcome To MovieApp</h1>
+<div style="background-color: wheat">
+<input class="form-control" type="text" name="search" [(ngModel)]="searchtext" autocomplete="off" placeholder="Start searching for a movie by title,genre">
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mx-auto my-5" *ngFor="let d of details | filter:searchtext">
+      <mdb-card style="max-width: 20rem;">
+        <!-- <mdb-card-img [src]="card.img" alt="Card image cap">
+        </mdb-card-img> -->
+        <mdb-card-body>
+          <mdb-card-title>
+            <h4>{{d.movie_title}}</h4>
+          </mdb-card-title>
+
+          <mdb-card-text>
+            {{d.director_name}}
+          </mdb-card-text>
+            <mdb-card-text>
+            {{d.actor_1_name}}
+          </mdb-card-text>
+            <mdb-card-text>
+            {{d.actor_2_name}}
+          </mdb-card-text>
+          <mdb-card-text>
+            {{d.genres}}
+          </mdb-card-text>
+          <mdb-card-text>
+            {{d.country}}
+          </mdb-card-text>
+          <mdb-card-text>
+            {{d.title_year}}
+          </mdb-card-text>
+          <mdb-card-text>
+          <a href={{d.movie_imdb_link}} target="_blank" rel="noopener">
+              Check on IMDB
+            </a>
+          </mdb-card-text>
+
+          <!-- <button mdbBtn color="primary">{{card.buttonText}}</button> -->
+        </mdb-card-body>
+      </mdb-card>
+    </div>
+  </div>
+</div>
+</div>
